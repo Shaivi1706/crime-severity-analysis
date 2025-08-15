@@ -56,16 +56,3 @@ sampling techniques, threshold tuning, and ensemble methods, to achieve optimal 
 | Keras Baseline                               | Weighted Focal Loss + Threshold Tuning (Improve Medium) | 0.76     | 0.69     | 0.85      | 0.59     | **0.63**    |
 | Keras Baseline                               | Increased Low Class Weight (Improve Low)                | 0.78     | 0.65     | **0.88**  | 0.60     | 0.48        |
 
----
-
-## Installation & Usage
-```bash
-# Clone the repository
-git clone https://github.com/Shaivi1706/crime-severity-analysis.git
-cd crime-severity-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Jupyter notebooks or scripts
-jupyter notebook

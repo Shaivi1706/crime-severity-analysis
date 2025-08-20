@@ -35,8 +35,8 @@ sampling techniques, threshold tuning, and ensemble methods, to achieve optimal 
 ## Results
 | Model                                        | Accuracy | Macro F1 | F1 (Class 0) | F1 (Class 1) | F1 (Class 2) |
 | -------------------------------------------- | -------- | -------- | ------------ | ------------ | ------------ |
-| **Direct CatBoost (Tuned)**                  | **0.79** | 0.7100   | **0.8800**   | 0.6200       | 0.6400       |
-| OvR CatBoost (Tuned Base)                    | 0.79   | 0.7203   | 0.8729       | 0.6424       | **0.6457**   |
+| **Direct CatBoost (Tuned)**                  | 0.79 | 0.7100   | **0.8800**   | 0.6200       | 0.6400       |
+| OvR CatBoost (Tuned Base)                    | **0.80**   | 0.7203   | 0.8729       | 0.6424       | **0.6457**   |
 | OvR XGBoost (Default Base)                   | 0.79   | 0.7020   | 0.8752       | 0.6265       | 0.6042       |
 | Direct XGBoost (Tuned)                       | **0.79**   | **0.7210** | 0.8726       | **0.6500**   | 0.6405       |
 | OvR LightGBM (Default Base)                   | 0.79   | 0.7198   | 0.8756       | 0.6433       | 0.6403       |
